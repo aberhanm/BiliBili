@@ -1,0 +1,30 @@
+.info-box {
+	overflow: hidden;
+}
+
+.info-box .info {
+	position: absolute;
+	width: 100%;
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: 500;
+	/* background: rgba(0,0,0,.7); */
+	top: 82px;
+	left: 0;
+	transition: top .2s;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.info-box:hover .info {
+	background: rgba(0, 0, 0, .7);
+	top: 0;
+	height: 100%;
+	overflow: auto;
+	text-overflow: initial;
+	white-space:pre-wrap ;
+}
