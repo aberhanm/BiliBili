@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<title>bilibili</title>
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 		<link rel="stylesheet" href="css/bg.css" type="text/css" />
-
+		<link rel="stylesheet" href="css/media.css" type="text/css">
 	</head>
+
 	<body>
 		<div class="app">
 			<div class="header">
@@ -304,16 +306,460 @@
 						<div class="ad-title">
 							在线列表
 						</div>
-						<img src="img/banners/b1.jpg" >
+						<img src="img/banners/b1.jpg">
 					</div>
 				</div>
 			</div>
-			<div id="bili_live">
-				
+			<div class="b-wrap">
+				<div class="ad">
+					<img src="photos/ad2.jpg">
+				</div>
+				<div id="bili_live">
+					<div class="live-list">
+						<header class="ex-header">
+							<div class="h-icon-svg"><svg id="bili-live" viewBox="0 0 1024 1024">
+									<path d="M392.448 275.911111a92.416 92.416 0 1 1-184.832 0 92.416 92.416 0 0 1 184.832 0" fill="#23ADE5">
+									</path>
+									<path d="M826.624 464.583111l-63.744 36.864v-48.64a72.206222 72.206222 0 0 0-71.68-71.936H190.72a72.192 72.192 0 0 0-71.936 71.936V748.231111a71.936 71.936 0 0 0 71.936 71.936H691.2a71.936 71.936 0 0 0 71.936-71.936v-23.808l63.488 37.888a51.2 51.2 0 0 0 76.8-44.544V508.871111a51.2 51.2 0 0 0-76.8-44.288M572.928 369.351111c79.459556 0.142222 143.985778-64.156444 144.128-143.616 0.142222-79.459556-64.156444-143.985778-143.616-144.128-79.260444-0.142222-143.701333 63.857778-144.128 143.104-0.426667 79.459556 63.644444 144.213333 143.104 144.64h0.512"
+									 fill="#48CFE5">
+									</path>
+									<path d="M425.216 512.967111l124.16 71.936a25.6 25.6 0 0 1 0 42.496l-124.16 71.68a25.6 25.6 0 0 1-37.12-21.248V534.471111a25.6 25.6 0 0 1 37.12-21.504"
+									 fill="#FDDE80">
+									</path>
+								</svg>
+							</div>
+							<div class="tg">
+								正在直播
+							</div>
+						</header>
+						<div class="zone-list-box"></div>
+					</div>
+					<div class="live-tab">
+						<div class="switch-tab switch-margin">
+							<div class="switch-tab-item on">直播排行</div>
+							<div class="switch-tab-item">关注主播</div>
+							<div class="switch-tab-item">为你推荐</div>
+						</div>
+						<div class="tab-content">
+							<div class="live-rank on" id="rank1">
+								<div class="rank-item">
+									<div class="rank-item-left">
+										<span class="top-3 level">1</span>
+										<img src="img/头像2.jpg" alt="" class="rank-img">
+										<div class="rank-up">
+											<p>晾衣棍</p>
+											<p class="p2">我的四下次世界</p>
+										</div>
+									</div>
+									<div class="rank-item-right">55玩</div>
+								</div>
+								<div class="rank-item">
+									<div class="rank-item-left">
+										<span class="top-3 level">2</span>
+										<img src="img/头像1.jpg" alt="" class="rank-img">
+										<div class="rank-up">
+											<p>面糊大哥哥</p>
+											<p class="p2">个和进入特结帖人进入图他</p>
+										</div>
+									</div>
+									<div class="rank-item-right">55玩</div>
+								</div>
+								<div class="rank-item">
+									<div class="rank-item-left">
+										<span class="top-3 level">3</span>
+										<img src="img/头像2.jpg" alt="" class="rank-img">
+										<div class="rank-up">
+											<p>想想大作战</p>
+											<p class="p2">二姨太而湖人让人家和和热一热</p>
+										</div>
+									</div>
+									<div class="rank-item-right">55玩</div>
+								</div>
+
+								<div class="rank-item">
+									<div class="rank-item-left">
+										<span class="level">4</span>
+										<img src="img/头像1.jpg" alt="" class="rank-img">
+										<div class="rank-up">
+											<p>蛋黄的长拳</p>
+											<p class="p2">特日后是否那个福建师范和</p>
+										</div>
+									</div>
+									<div class="rank-item-right">55玩</div>
+								</div>
+								<div class="rank-item">
+									<div class="rank-item-left">
+										<span class="level">5</span>
+										<img src="img/头像2.jpg" alt="" class="rank-img">
+										<div class="rank-up">
+											<p>写宝宝</p>
+											<p class="p2">个会弹吉他热狗和怀特和</p>
+										</div>
+									</div>
+									<div class="rank-item-right">55玩</div>
+								</div>
+								<div class="rank-item">
+									<div class="rank-item-left">
+										<span class="level">6</span>
+										<img src="img/头像1.jpg" alt="" class="rank-img">
+										<div class="rank-up">
+											<p>绵阳料理</p>
+											<p class="p2">过热和火热合格火热哈</p>
+										</div>
+									</div>
+									<div class="rank-item-right">55玩</div>
+								</div>
+							</div>
+							<div class="live-rank" id="rank2">
+								<div class="rank-item">
+									<div class="rank-item-left">
+										<img src="img/头像1.jpg" alt="" class="rank-img">
+										<div class="rank-up">
+											<p>绵阳料理</p>
+											<p class="p2">过热和火热合格火热哈</p>
+										</div>
+									</div>
+									<div class="rank-item-right">5558玩</div>
+								</div>
+								<div class="rank-item">
+									<div class="rank-item-left">
+										<img src="img/头像2.jpg" alt="" class="rank-img">
+										<div class="rank-up">
+											<p>绵阳料理</p>
+											<p class="p2">过热和火热合格火热哈</p>
+										</div>
+									</div>
+									<div class="rank-item-right">5558玩</div>
+								</div>
+								<div class="rank-item">
+									<div class="rank-item-left">
+										<img src="img/头像1.jpg" alt="" class="rank-img">
+										<div class="rank-up">
+											<p>绵阳料理</p>
+											<p class="p2">过热和火热合格火热哈</p>
+										</div>
+									</div>
+									<div class="rank-item-right">5558玩</div>
+								</div>
+								<div class="rank-item">
+									<div class="rank-item-left">
+										<img src="img/头像1.jpg" alt="" class="rank-img">
+										<div class="rank-up">
+											<p>绵阳料理</p>
+											<p class="p2">过热和火热合格火热哈</p>
+										</div>
+									</div>
+									<div class="rank-item-right">5558玩</div>
+								</div>
+							</div>
+							<div class="live-rank" id="rank3">
+								<img src="img/兰尼斯特.jpg" alt="">
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div id="antimite">
+					<div class="card-list">
+						<header class="ex-header">
+							<div class="h-icon-svg"><svg id="bili-live" viewBox="0 0 1024 1024">
+									<path d="M392.448 275.911111a92.416 92.416 0 1 1-184.832 0 92.416 92.416 0 0 1 184.832 0" fill="#23ADE5">
+									</path>
+									<path d="M826.624 464.583111l-63.744 36.864v-48.64a72.206222 72.206222 0 0 0-71.68-71.936H190.72a72.192 72.192 0 0 0-71.936 71.936V748.231111a71.936 71.936 0 0 0 71.936 71.936H691.2a71.936 71.936 0 0 0 71.936-71.936v-23.808l63.488 37.888a51.2 51.2 0 0 0 76.8-44.544V508.871111a51.2 51.2 0 0 0-76.8-44.288M572.928 369.351111c79.459556 0.142222 143.985778-64.156444 144.128-143.616 0.142222-79.459556-64.156444-143.985778-143.616-144.128-79.260444-0.142222-143.701333 63.857778-144.128 143.104-0.426667 79.459556 63.644444 144.213333 143.104 144.64h0.512"
+									 fill="#48CFE5">
+									</path>
+									<path d="M425.216 512.967111l124.16 71.936a25.6 25.6 0 0 1 0 42.496l-124.16 71.68a25.6 25.6 0 0 1-37.12-21.248V534.471111a25.6 25.6 0 0 1 37.12-21.504"
+									 fill="#FDDE80">
+									</path>
+								</svg>
+							</div>
+							<div class="tg">
+								动画
+							</div>
+						</header>
+						<div class="zone-list-box"></div>
+					</div>
+					<div class="rank-list">
+						<div class="ranl-list-title">排行榜</div>
+						<div class="rank-list-box">
+							<div class="first-item rank-list-box-item">
+								<span class="top-3 level">1</span>
+								<div class="first-item-pre">
+									<img src="photos/2211.jpg" class="first-item-img" alt="">
+									<div class="pre-txt">
+										<p>[大卫田来]加入就是海关监管士大夫大多数的</p>
+										<p class="p2">综合得分：741万</p>
+									</div>
+								</div>
+
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="top-3 level">2</span>
+								<p>分割反动黄色的i 人和，火热红日hihire和日韩如iohier</p>
+
+							</div>
+
+							<div class="rest-item rank-list-box-item">
+								<span class="top-3 level">3</span>
+								<p>个人化推荐投入今天就会突然，吗和</p>
+								<div class="rest-pre">
+									<div class="rest-pre-top">
+										<img src="photos/2210.jpg" alt="">
+										<div class="info">
+											<div class="pr-title">日本动画界神预言成真！他就是日本动画吹哨人！【次元爆论3-01】</div>
+											<div class="pr-sub-title">
+												<span class="name">饭帅fun</span>
+												<span class="point">·</span>
+												<span class="time">2020-05-24</span>
+											</div>
+										</div>
+
+									</div>
+									<div class="rest-pre-bot"></div>
+								</div>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">4</span>
+								<p>分个花亭湖人个人化推荐和</p>
+								<div class="rest-pre">
+									<div class="rest-pre-top">
+										<img src="photos/2210.jpg" alt="">
+										<div class="info">
+											<div class="pr-title">日本动画界神预言成真！他就是日本动画吹哨人！【次元爆论3-01】</div>
+											<div class="pr-sub-title">
+												<span class="name">饭帅fun</span>
+												<span class="point">·</span>
+												<span class="time">2020-05-24</span>
+											</div>
+										</div>
+
+									</div>
+									<div class="rest-pre-bot"></div>
+								</div>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">5</span>
+								<p>计划后台局外人 有热火</p>
+								<div class="rest-pre">
+									<div class="rest-pre-top">
+										<img src="photos/2210.jpg" alt="">
+										<div class="info">
+											<div class="pr-title">日本动画界神预言成真！他就是日本动画吹哨人！【次元爆论3-01】</div>
+											<div class="pr-sub-title">
+												<span class="name">饭帅fun</span>
+												<span class="point">·</span>
+												<span class="time">2020-05-24</span>
+											</div>
+										</div>
+
+									</div>
+									<div class="rest-pre-bot"></div>
+								</div>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">6</span>
+								<p>uit国家已进入后会突然就</p>
+								<div class="rest-pre">
+									<div class="rest-pre-top">
+										<img src="photos/2210.jpg" alt="">
+										<div class="info">
+											<div class="pr-title">日本动画界神预言成真！他就是日本动画吹哨人！【次元爆论3-01】</div>
+											<div class="pr-sub-title">
+												<span class="name">饭帅fun</span>
+												<span class="point">·</span>
+												<span class="time">2020-05-24</span>
+											</div>
+										</div>
+
+									</div>
+									<div class="rest-pre-bot"></div>
+								</div>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">7</span>
+								<p>会就可以热环境也有特卡特肯塔基如同今天可调节人体 </p>
+								<div class="rest-pre">
+									<div class="rest-pre-top">
+										<img src="photos/2210.jpg" alt="">
+										<div class="info">
+											<div class="pr-title">日本动画界神预言成真！他就是日本动画吹哨人！【次元爆论3-01】</div>
+											<div class="pr-sub-title">
+												<span class="name">饭帅fun</span>
+												<span class="point">·</span>
+												<span class="time">2020-05-24</span>
+											</div>
+										</div>
+
+									</div>
+									<div class="rest-pre-bot"></div>
+								</div>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">8</span>
+								<p>和和后台既托人监听软件可进入监听软件可以投入 让他条件太好r</p>
+								<div class="rest-pre">
+									<div class="rest-pre-top">
+										<img src="photos/2210.jpg" alt="">
+										<div class="info">
+											<div class="pr-title">日本动画界神预言成真！他就是日本动画吹哨人！【次元爆论3-01】</div>
+											<div class="pr-sub-title">
+												<span class="name">饭帅fun</span>
+												<span class="point">·</span>
+												<span class="time">2020-05-24</span>
+											</div>
+										</div>
+
+									</div>
+									<div class="rest-pre-bot"></div>
+								</div>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">9</span>
+								<p>会突然就 快译通进入交易</p>
+								<div class="rest-pre">
+									<div class="rest-pre-top">
+										<img src="photos/2210.jpg" alt="">
+										<div class="info">
+											<div class="pr-title">日本动画界神预言成真！他就是日本动画吹哨人！【次元爆论3-01】</div>
+											<div class="pr-sub-title">
+												<span class="name">饭帅fun</span>
+												<span class="point">·</span>
+												<span class="time">2020-05-24</span>
+											</div>
+										</div>
+
+									</div>
+									<div class="rest-pre-bot"></div>
+								</div>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">10</span>
+								<p>合同及如何突然看看和健康有特utj</p>
+								<div class="rest-pre">
+									<div class="rest-pre-top">
+										<img src="photos/2210.jpg" alt="">
+										<div class="info">
+											<div class="pr-title">日本动画界神预言成真！他就是日本动画吹哨人！【次元爆论3-01】</div>
+											<div class="pr-sub-title">
+												<span class="name">饭帅fun</span>
+												<span class="point">·</span>
+												<span class="time">2020-05-24</span>
+											</div>
+										</div>
+
+									</div>
+									<div class="rest-pre-bot"></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="ad">
+					<img src="photos/ad1.jpg">
+				</div>
+				<div id="anime-movie">
+					<div class="movie-tabs">
+						<header class="ex-header">
+							<div class="h-icon-svg"><svg id="bili-live" viewBox="0 0 1024 1024">
+									<path d="M392.448 275.911111a92.416 92.416 0 1 1-184.832 0 92.416 92.416 0 0 1 184.832 0" fill="#23ADE5">
+									</path>
+									<path d="M826.624 464.583111l-63.744 36.864v-48.64a72.206222 72.206222 0 0 0-71.68-71.936H190.72a72.192 72.192 0 0 0-71.936 71.936V748.231111a71.936 71.936 0 0 0 71.936 71.936H691.2a71.936 71.936 0 0 0 71.936-71.936v-23.808l63.488 37.888a51.2 51.2 0 0 0 76.8-44.544V508.871111a51.2 51.2 0 0 0-76.8-44.288M572.928 369.351111c79.459556 0.142222 143.985778-64.156444 144.128-143.616 0.142222-79.459556-64.156444-143.985778-143.616-144.128-79.260444-0.142222-143.701333 63.857778-144.128 143.104-0.426667 79.459556 63.644444 144.213333 143.104 144.64h0.512"
+									 fill="#48CFE5">
+									</path>
+									<path d="M425.216 512.967111l124.16 71.936a25.6 25.6 0 0 1 0 42.496l-124.16 71.68a25.6 25.6 0 0 1-37.12-21.248V534.471111a25.6 25.6 0 0 1 37.12-21.504"
+									 fill="#FDDE80">
+									</path>
+								</svg>
+							</div>
+							<div class="tg">
+								番剧
+							</div>
+							<div class="switch-tab">
+								<div class="switch-tab-item mr on">
+									最新
+								</div>
+								<div class="switch-tab-item mr">
+									周一
+								</div>
+								<div class="switch-tab-item mr">
+									周二
+								</div>
+								<div class="switch-tab-item mr">
+									周三
+								</div>
+								<div class="switch-tab-item mr">
+									周四
+								</div>
+								<div class="switch-tab-item mr">
+									周五
+								</div>
+								<div class="switch-tab-item mr">
+									周六
+								</div>
+								<div class="switch-tab-item mr">
+									周日
+								</div>
+							</div>
+
+						</header>
+						<div class="zone-list-box "></div>
+					</div>
+					<div class="rank-list">
+						<div class="ranl-list-title">排行榜</div>
+						<div class="rank-list-box">
+							<div class="rest-item rank-list-box-item">
+								<span class="top-3 level">1</span>
+								<p>会突然就 快译通进入交易</p>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="top-3 level">2</span>
+								<p>个具有艰苦有可交易库拉库名矿工交易日</p>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="top-3 level">2</span>
+								<p> 加入就就科技园调控房价就看到他一看见掘金具有 进入特</p>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">4</span>
+								<p>还特人据统计任务交易额就人家你让他进入途径</p>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">5</span>
+								<p>还特人结合突然文件晚间让玩家与就</p>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">6</span>
+								<p>热会u就会突然晚间他认为教育局会突然就 快译通进入交易</p>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">7</span>
+								<p>和具体任务就因为今天一万人</p>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">8</span>
+								<p>他软件i今天也具体讲后台任务今天溶菌酶药物如</p>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">9</span>
+								<p>金融界月日交易额结帖人计用忒哦库</p>
+							</div>
+							<div class="rest-item rank-list-box-item">
+								<span class="level">10</span>
+								<p>后台iihf建议特克鲁伊冷酷与具体交易日</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+
 			</div>
 		</div>
 		<script src="js/slide.js"></script>
 		<script src="js/main.js"></script>
 
 	</body>
+
 </html>

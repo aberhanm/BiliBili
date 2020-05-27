@@ -1,0 +1,115 @@
+@media screen and (max-width:1870px) {
+    .recommend {
+        width: 854px
+    }
+    .b-wrap {
+        width: 1414px;
+    }
+    .extension {
+        width: 1070px;
+    }
+    .extension .ex-left-box-list .ex-list-item:nth-child(n+6) {
+        display: none;
+    }
+    .zone-list-box {
+        width: 1070px;
+    }
+    .zone-list-box .live-card:nth-child(n+11) {
+        display: none;
+    }
+    .card-list .zone-list-box .ex-list-item:nth-child(n+11){
+        display: none;
+    }
+}
+
+@media screen and (max-width:1654px) {
+    .recommend {
+        width: 638px
+    }
+    .b-wrap {
+        width: 1198px
+    }
+    .extension {
+        width: 854px;
+    }
+    .extension .ex-left-box-list .ex-list-item:nth-child(n+5) {
+        display: none;
+    }
+    .zone-list-box {
+        width: 854px !important;
+    }
+    .zone-list-box .live-card:nth-child(n+9) {
+        display: none;
+    }
+    .card-list .zone-list-box .ex-list-item:nth-child(n+9){
+        display: none;
+    }
+}
+
+@media screen and (max-width:1438px) {
+    .recommend {
+        width: 530px;
+        height: 202px;
+    }
+    .b-wrap {
+        width: 999px;
+    }
+    .re-item {
+        width: 170px;
+        height: 96px;
+    }
+    .slides {
+        width: 459px;
+        height: 202px;
+    }
+    .img {
+        width: 459px;
+        height: 202px;
+    }
+    .ex-list-item {
+        width: 170px;
+    }
+    .extension {
+        width: 710px;
+    }
+    .bp-advtise {
+        width: 265px;
+    }
+    .zone-list-box {
+        width: 710px!important;
+        height: 360px;
+    }
+    .live-card {
+        width: 170px;
+    }
+    .cate {
+        width: 128px
+    }
+    .live-tab {
+        width: 265px;
+    }
+    .rank-list{
+        width: 265px;
+    }
+    .rank-item {
+        margin-bottom: 16px;
+    }
+    .video-card-common {
+        width: 170px;
+    }
+    .first-item-pre {
+        width: 235px;
+    }
+    .rest-item p {
+        width: 235px;
+    }
+	.movie-tabs .zone-list-box{
+		height:332px ;
+	}
+}
+
+@media screen and (max-width:1110px) {
+    .minddle-nav {
+        display: none;
+    }
+}
