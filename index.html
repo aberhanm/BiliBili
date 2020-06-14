@@ -757,6 +757,17 @@
 
 			</div>
 		</div>
+		<script type="text/javascript">
+			function s(){
+				setTimeout(()=>{
+					console.log('kk')
+				},0)
+				new Promise((reslove)=>{
+					console.log('reslove')
+				})
+			}
+			s()
+		</script>
 		<script src="js/slide.js"></script>
 		<script src="js/main.js"></script>
 

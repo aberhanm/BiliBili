@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>下载app</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .app {
+            width: 100%;
+            min-height: 100vh;
+            /* height: 100vh; */
+            background: url('./bg.png') no-repeat center center;
+            background-size: 100% 100%;
+            padding-top: 400px;
+            box-sizing: border-box;
+        }
+        
+        .open,
+        .download {
+            width: 80%;
+            height: 54px;
+            background: rgba(255, 255, 255, 1);
+            border-radius: 10px;
+            margin: 0 auto;
+            font-size: 24px;
+            font-family: PingFang-SC-Bold;
+            font-weight: bold;
+            color: rgba(202, 20, 0, 1);
+            text-align: center;
+            line-height: 54px;
+        }
+        
+        .open {
+            margin-bottom: 30px;
+        }
+        
+        .msg {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            padding: 20px 40px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, .7);
+            color: #fff;
+            text-align: center;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <div class="open">打开汉富新生活</div>
+        <div class="download">下载汉富新生活</div>
+        <div class="msg">如果没有App <br>请点击前往下载</div>
+    </div>
+    <script>
+        window.onload = function() {
+
+
+            var u = navigator.userAgent;
+            var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
+            var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+
+            document.querySelector('.open').onclick = function() {
+                if (isAndroid) {
+                    window.location.href = 'launchapp://haha?data=mydata';
+                    window.setTimeout(function() {
+                        document.querySelector('.msg').style.display = 'block';
+                        window.setTimeout(function() {
+                            document.querySelector('.msg').style.display = 'none';
+                        }, 3000)
+                    }, 5000);
+                }
+                if (isIOS) {
+                    location.href = 'hanlife://';
+                }
+
+            }
+            document.querySelector('.download').onclick = function() {
+                if (isAndroid) {
+                    location.href = "http://hanzhifu2-photos-public.oss-cn-shenzhen.aliyuncs.com/app_package/d560edf5d476ce1bf1ac98260bffa388.apk";
+                }
+                if (isIOS) {
+                    location.href = 'https://itunes.apple.com/cn/app/%E6%B1%89%E5%AF%8C%E6%96%B0%E7%94%9F%E6%B4%BB/id1458588987?l=zh&ls=1&mt=8';
+                }
+
+            }
+        }
+    </script>
+</body>
+
+</html>
+————————————————
+版权声明：本文为CSDN博主「小曲曲」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/weixin_43848576/java/article/details/90756413
